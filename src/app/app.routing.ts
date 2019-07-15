@@ -11,4 +11,4 @@ const appRoutes: Routes=[
     {path:'**',component: ContactoComponent}
     ]
 
-export const APPE_ROUTES = RouterModule.forRoot(appRoutes, {useHash:true});
+export const APP_ROUTES = RouterModule.forRoot(appRoutes, {useHash:true});
